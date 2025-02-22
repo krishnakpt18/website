@@ -1,0 +1,13 @@
+body{
+    background-color: skyblue;
+   
+    margin: auto;
+    text-align: center;
+}
+
+.mainMenu{
+    background-color:skyblue ;
+    height: 20px;
+    width: 100%;
+    border: 2px;
+}
