@@ -1,13 +1,48 @@
 body{
-    background-color: skyblue;
-   
+   width: 90%;
+  
     margin: auto;
     text-align: center;
+   
+}
+header{
+    height: 60px;
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: left;
+    margin: auto;
+   justify-content: space-between;
+   display: flex;
+   
 }
 
-.mainMenu{
-    background-color:skyblue ;
-    height: 20px;
-    width: 100%;
-    border: 2px;
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%; 
+    object-fit: cover;
+    padding: 10px;
+}
+nav{
+    list-style: none;
+    margin-left: auto;
+    padding-right: 35px;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+    display: flex;
+}
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    
 }
