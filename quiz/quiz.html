@@ -3,26 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>mock-portal</title>
     <link rel="stylesheet" href="quiz.css">
 </head>
 <body>
-
-
-    <div class="quiz-box">
-        <h2>Quiz Question</h2>
-        <p>What is the capital of France?</p>
-        <button onclick="checkAnswer(this, 'wrong')">Berlin</button>
-        <button onclick="checkAnswer(this, 'wrong')">Madrid</button>
-        <button onclick="checkAnswer(this, 'correct')">Paris</button>
-        <button onclick="checkAnswer(this, 'wrong')">Rome</button>
-        <p id="result"></p>
+    
+<header>
+    <div class="logo">Math mock test</div>
+    <div class="header-top"></div>
+    <div class="header-bottom">
+        <div class="time" id="timer">10:00</div>
     </div>
+</header>
 
+    <br>
+<div class="question">
+    <h3>This is a sample question</h3>
+    <label class="option"><input type="radio" name="sample" value=""> option a</label>
+    <label class="option"><input type="radio" name="sample" value=""> option b</label>
+    <label class="option"><input type="radio" name="sample" value=""> option c</label>
+    <label class="option"><input type="radio" name="sample" value=""> option d</label>
+</div>
 
-
-
-
+<div class="side-panel" id="sidePanel">
+    <button class="toggle-btn" onclick="togglePanel() ">&#60;</button>
+    <h4>Questions</h4>
+    <ul>
+        <li><a href="#q1">1</a></li>
+        <li><a href="#q2">2</a></li>
+        <li><a href="#q3">3</a></li>
+        <li><a href="#q4">4</a></li>
+        <li><a href="#q4">5</a></li>
+    </ul>
+</div>
 
 
 
